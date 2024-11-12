@@ -1,3 +1,12 @@
+前置：
+1. 查看下次提交所包含的文件夹以及文件
+```
+git status
+```
+2. 如果发现即将上传的文件中除了Assets文件夹和ProjectSettings文件夹外，还有其他文件夹，那么就需要修改.gitignore文件的内容，把需要剔除的的文件和文件夹加入.gitignore中。具体操作参考[此文章](https://blog.csdn.net/c651088720/article/details/94722264)
+---
+---
+## ！！！一定不能在master主分支中直接编辑，违者，打！！！
 1.查看当前在哪个分支
 ```
 git branch
