@@ -1,3 +1,5 @@
+# ！！！一定要切换到自己的分支，不要在master主分支中直接编辑
+
 1.查看当前在哪个分支
 ```
 git branch
@@ -30,4 +32,13 @@ git add .
 7.为本次提交添加注释，解释你做了什么
 ```
 git commit -m "修复了xxx.c中的问题..."
+```
+8.将本地仓库中的代码上传到git服务器，上传后可以在github的自己的分支中看到已经更新了，但是master主分支中仍是更新前的样子
+```
+git push origin HEAD
+```
+9.合并当前分支内容到master主分支
+```
+git checkout master
+git merge wxj_branch
 ```
